@@ -25,6 +25,18 @@ namespace Blitzschutz_Rechner.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ShowSingleRod {
+            get {
+                return ((bool)(this["ShowSingleRod"]));
+            }
+            set {
+                this["ShowSingleRod"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Language {
             get {
@@ -32,6 +44,18 @@ namespace Blitzschutz_Rechner.Properties {
             }
             set {
                 this["Language"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SettingsMessageRestart {
+            get {
+                return ((string)(this["SettingsMessageRestart"]));
+            }
+            set {
+                this["SettingsMessageRestart"] = value;
             }
         }
     }

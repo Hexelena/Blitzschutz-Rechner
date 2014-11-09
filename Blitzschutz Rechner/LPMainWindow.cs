@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Globalization;
+using System.Threading;
 
 namespace Blitzschutz_Rechner
 {
@@ -13,6 +14,7 @@ namespace Blitzschutz_Rechner
     {
         public BlitzschutzRechner()
         {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(Properties.Settings.Default.Language);
             InitializeComponent();
             Blitzschutz = new LightningProtectionCalculation();
         }
@@ -513,12 +515,38 @@ namespace Blitzschutz_Rechner
                             "Über den Blitzschutz-Rechner", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        #endregion
-
         private void einstellungenToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SettingsWindow SetWindow = new SettingsWindow();
-            SetWindow.ShowDialog();
+            SetWindow.ShowDialog(this);
+
+            ApplySettings();
+        }
+
+        #endregion
+
+        private void ApplySettings()
+        {
+            if ((Properties.Settings.Default.ShowSingleRod) && (this.Size.Height != 467))
+            {
+                groupBox_One_Pole.Visible = true;
+                this.Size = new Size(this.Size.Width, 476);
+            }
+            else if ((!Properties.Settings.Default.ShowSingleRod) && (this.Size.Height != 302))
+            {
+                groupBox_One_Pole.Visible = false;
+                this.Size = new Size(this.Size.Width, 302);
+            }
+
+            //if ((Properties.Settings.Default.Language == "en") && (this.Text == "Blitzschutz-Rechner"))
+                //Application.Restart();
+            //else if ((Properties
+            
+        }
+
+        private void BlitzschutzRechner_Load(object sender, EventArgs e)
+        {
+            ApplySettings();
         }
     }
 }

@@ -28,34 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsWindow));
             this.BtnClose = new System.Windows.Forms.Button();
+            this.checkBoxShowSingleRod = new System.Windows.Forms.CheckBox();
+            this.toolTipShowSingleRod = new System.Windows.Forms.ToolTip(this.components);
+            this.comboBoxLanguage = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // BtnClose
             // 
-            this.BtnClose.Location = new System.Drawing.Point(197, 227);
+            resources.ApplyResources(this.BtnClose, "BtnClose");
             this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(75, 23);
-            this.BtnClose.TabIndex = 0;
-            this.BtnClose.Text = "Schließen";
+            this.toolTipShowSingleRod.SetToolTip(this.BtnClose, resources.GetString("BtnClose.ToolTip"));
             this.BtnClose.UseVisualStyleBackColor = true;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
+            // checkBoxShowSingleRod
+            // 
+            resources.ApplyResources(this.checkBoxShowSingleRod, "checkBoxShowSingleRod");
+            this.checkBoxShowSingleRod.Name = "checkBoxShowSingleRod";
+            this.toolTipShowSingleRod.SetToolTip(this.checkBoxShowSingleRod, resources.GetString("checkBoxShowSingleRod.ToolTip"));
+            this.checkBoxShowSingleRod.UseVisualStyleBackColor = true;
+            this.checkBoxShowSingleRod.CheckedChanged += new System.EventHandler(this.checkBoxShowSingleRod_CheckedChanged);
+            // 
+            // comboBoxLanguage
+            // 
+            resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
+            this.comboBoxLanguage.FormattingEnabled = true;
+            this.comboBoxLanguage.Name = "comboBoxLanguage";
+            this.toolTipShowSingleRod.SetToolTip(this.comboBoxLanguage, resources.GetString("comboBoxLanguage.ToolTip"));
+            this.comboBoxLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguage_SelectedIndexChanged);
+            // 
             // SettingsWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.comboBoxLanguage);
+            this.Controls.Add(this.checkBoxShowSingleRod);
             this.Controls.Add(this.BtnClose);
             this.Name = "SettingsWindow";
-            this.Text = "SettingsWindow";
+            this.toolTipShowSingleRod.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.SettingsWindow_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button BtnClose;
+        private System.Windows.Forms.CheckBox checkBoxShowSingleRod;
+        private System.Windows.Forms.ToolTip toolTipShowSingleRod;
+        private System.Windows.Forms.ComboBox comboBoxLanguage;
     }
 }

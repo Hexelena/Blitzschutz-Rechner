@@ -103,7 +103,6 @@
             // 
             // groupBox_One_Pole
             // 
-            resources.ApplyResources(this.groupBox_One_Pole, "groupBox_One_Pole");
             this.groupBox_One_Pole.Controls.Add(this.groupBox_One_Pole_Protection_Height_Error);
             this.groupBox_One_Pole.Controls.Add(this.groupBox_One_Pole_Pole_Height_Error);
             this.groupBox_One_Pole.Controls.Add(this.Label_One_Pole_Protection_Height);
@@ -113,13 +112,14 @@
             this.groupBox_One_Pole.Controls.Add(this.Txtbox_One_Pole_Pole_Height);
             this.groupBox_One_Pole.Controls.Add(this.Btn_One_Pole_Calculate);
             this.groupBox_One_Pole.Controls.Add(this.Txtbox_One_Pole_Protection_Radius);
+            resources.ApplyResources(this.groupBox_One_Pole, "groupBox_One_Pole");
             this.groupBox_One_Pole.Name = "groupBox_One_Pole";
             this.groupBox_One_Pole.TabStop = false;
             // 
             // groupBox_One_Pole_Protection_Height_Error
             // 
-            resources.ApplyResources(this.groupBox_One_Pole_Protection_Height_Error, "groupBox_One_Pole_Protection_Height_Error");
             this.groupBox_One_Pole_Protection_Height_Error.Controls.Add(this.Label_One_Pole_Protection_Height_Error);
+            resources.ApplyResources(this.groupBox_One_Pole_Protection_Height_Error, "groupBox_One_Pole_Protection_Height_Error");
             this.groupBox_One_Pole_Protection_Height_Error.Name = "groupBox_One_Pole_Protection_Height_Error";
             this.groupBox_One_Pole_Protection_Height_Error.TabStop = false;
             // 
@@ -131,8 +131,8 @@
             // 
             // groupBox_One_Pole_Pole_Height_Error
             // 
-            resources.ApplyResources(this.groupBox_One_Pole_Pole_Height_Error, "groupBox_One_Pole_Pole_Height_Error");
             this.groupBox_One_Pole_Pole_Height_Error.Controls.Add(this.Label_One_Pole_Pole_Height_Error);
+            resources.ApplyResources(this.groupBox_One_Pole_Pole_Height_Error, "groupBox_One_Pole_Pole_Height_Error");
             this.groupBox_One_Pole_Pole_Height_Error.Name = "groupBox_One_Pole_Pole_Height_Error";
             this.groupBox_One_Pole_Pole_Height_Error.TabStop = false;
             // 
@@ -183,7 +183,6 @@
             // 
             // groupBoxTwoRods
             // 
-            resources.ApplyResources(this.groupBoxTwoRods, "groupBoxTwoRods");
             this.groupBoxTwoRods.Controls.Add(this.GroupboxRodDistanceError);
             this.groupBoxTwoRods.Controls.Add(this.GroupboxProtectionHeightError);
             this.groupBoxTwoRods.Controls.Add(this.Label2ndRodProtectionRadius);
@@ -206,13 +205,14 @@
             this.groupBoxTwoRods.Controls.Add(this.LabelRodDistance);
             this.groupBoxTwoRods.Controls.Add(this.TxtboxRodDistance);
             this.groupBoxTwoRods.Controls.Add(this.Btn_Two_Poles_Calculate);
+            resources.ApplyResources(this.groupBoxTwoRods, "groupBoxTwoRods");
             this.groupBoxTwoRods.Name = "groupBoxTwoRods";
             this.groupBoxTwoRods.TabStop = false;
             // 
             // GroupboxRodDistanceError
             // 
-            resources.ApplyResources(this.GroupboxRodDistanceError, "GroupboxRodDistanceError");
             this.GroupboxRodDistanceError.Controls.Add(this.LabelRodDistanceError);
+            resources.ApplyResources(this.GroupboxRodDistanceError, "GroupboxRodDistanceError");
             this.GroupboxRodDistanceError.Name = "GroupboxRodDistanceError";
             this.GroupboxRodDistanceError.TabStop = false;
             // 
@@ -224,8 +224,8 @@
             // 
             // GroupboxProtectionHeightError
             // 
-            resources.ApplyResources(this.GroupboxProtectionHeightError, "GroupboxProtectionHeightError");
             this.GroupboxProtectionHeightError.Controls.Add(this.LabelProtectionHeightError);
+            resources.ApplyResources(this.GroupboxProtectionHeightError, "GroupboxProtectionHeightError");
             this.GroupboxProtectionHeightError.Name = "GroupboxProtectionHeightError";
             this.GroupboxProtectionHeightError.TabStop = false;
             // 
@@ -252,8 +252,8 @@
             // 
             // Groupbox2ndRodHeightError
             // 
-            resources.ApplyResources(this.Groupbox2ndRodHeightError, "Groupbox2ndRodHeightError");
             this.Groupbox2ndRodHeightError.Controls.Add(this.Label2ndRodHeightError);
+            resources.ApplyResources(this.Groupbox2ndRodHeightError, "Groupbox2ndRodHeightError");
             this.Groupbox2ndRodHeightError.Name = "Groupbox2ndRodHeightError";
             this.Groupbox2ndRodHeightError.TabStop = false;
             // 
@@ -294,8 +294,8 @@
             // 
             // Groupbox1stRodProtectionRadiusError
             // 
-            resources.ApplyResources(this.Groupbox1stRodProtectionRadiusError, "Groupbox1stRodProtectionRadiusError");
             this.Groupbox1stRodProtectionRadiusError.Controls.Add(this.Label1stRodProtectionRadiusError);
+            resources.ApplyResources(this.Groupbox1stRodProtectionRadiusError, "Groupbox1stRodProtectionRadiusError");
             this.Groupbox1stRodProtectionRadiusError.Name = "Groupbox1stRodProtectionRadiusError";
             this.Groupbox1stRodProtectionRadiusError.TabStop = false;
             // 
@@ -307,8 +307,8 @@
             // 
             // Groupbox2ndRodProtectionRadiusError
             // 
-            resources.ApplyResources(this.Groupbox2ndRodProtectionRadiusError, "Groupbox2ndRodProtectionRadiusError");
             this.Groupbox2ndRodProtectionRadiusError.Controls.Add(this.Label2ndRodProtectionRadiusError);
+            resources.ApplyResources(this.Groupbox2ndRodProtectionRadiusError, "Groupbox2ndRodProtectionRadiusError");
             this.Groupbox2ndRodProtectionRadiusError.Name = "Groupbox2ndRodProtectionRadiusError";
             this.Groupbox2ndRodProtectionRadiusError.TabStop = false;
             // 
@@ -320,8 +320,8 @@
             // 
             // GroupboxProtectedZoneError
             // 
-            resources.ApplyResources(this.GroupboxProtectedZoneError, "GroupboxProtectedZoneError");
             this.GroupboxProtectedZoneError.Controls.Add(this.LabelProtectedZoneError);
+            resources.ApplyResources(this.GroupboxProtectedZoneError, "GroupboxProtectedZoneError");
             this.GroupboxProtectedZoneError.Name = "GroupboxProtectedZoneError";
             this.GroupboxProtectedZoneError.TabStop = false;
             // 
@@ -333,8 +333,8 @@
             // 
             // Groupbox1stRodHeightError
             // 
-            resources.ApplyResources(this.Groupbox1stRodHeightError, "Groupbox1stRodHeightError");
             this.Groupbox1stRodHeightError.Controls.Add(this.Label1stRodHeightError);
+            resources.ApplyResources(this.Groupbox1stRodHeightError, "Groupbox1stRodHeightError");
             this.Groupbox1stRodHeightError.Name = "Groupbox1stRodHeightError";
             this.Groupbox1stRodHeightError.TabStop = false;
             // 
@@ -379,71 +379,71 @@
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.programmToolStripMenuItem,
             this.fehlerToolStripMenuItem,
             this.informationToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // programmToolStripMenuItem
             // 
-            resources.ApplyResources(this.programmToolStripMenuItem, "programmToolStripMenuItem");
             this.programmToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.einstellungenToolStripMenuItem,
             this.programmBeendenToolStripMenuItem});
             this.programmToolStripMenuItem.Name = "programmToolStripMenuItem";
+            resources.ApplyResources(this.programmToolStripMenuItem, "programmToolStripMenuItem");
             // 
             // einstellungenToolStripMenuItem
             // 
-            resources.ApplyResources(this.einstellungenToolStripMenuItem, "einstellungenToolStripMenuItem");
             this.einstellungenToolStripMenuItem.Name = "einstellungenToolStripMenuItem";
+            resources.ApplyResources(this.einstellungenToolStripMenuItem, "einstellungenToolStripMenuItem");
             this.einstellungenToolStripMenuItem.Click += new System.EventHandler(this.einstellungenToolStripMenuItem_Click);
             // 
             // programmBeendenToolStripMenuItem
             // 
-            resources.ApplyResources(this.programmBeendenToolStripMenuItem, "programmBeendenToolStripMenuItem");
             this.programmBeendenToolStripMenuItem.Name = "programmBeendenToolStripMenuItem";
+            resources.ApplyResources(this.programmBeendenToolStripMenuItem, "programmBeendenToolStripMenuItem");
             this.programmBeendenToolStripMenuItem.Click += new System.EventHandler(this.programmBeendenToolStripMenuItem_Click);
             // 
             // fehlerToolStripMenuItem
             // 
-            resources.ApplyResources(this.fehlerToolStripMenuItem, "fehlerToolStripMenuItem");
             this.fehlerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.wertNichtErlaubtToolStripMenuItem,
             this.ungültigerWertToolStripMenuItem,
             this.ungültigerEingabeToolStripMenuItem});
             this.fehlerToolStripMenuItem.Name = "fehlerToolStripMenuItem";
+            resources.ApplyResources(this.fehlerToolStripMenuItem, "fehlerToolStripMenuItem");
             // 
             // wertNichtErlaubtToolStripMenuItem
             // 
-            resources.ApplyResources(this.wertNichtErlaubtToolStripMenuItem, "wertNichtErlaubtToolStripMenuItem");
             this.wertNichtErlaubtToolStripMenuItem.Name = "wertNichtErlaubtToolStripMenuItem";
+            resources.ApplyResources(this.wertNichtErlaubtToolStripMenuItem, "wertNichtErlaubtToolStripMenuItem");
             this.wertNichtErlaubtToolStripMenuItem.Click += new System.EventHandler(this.wertNichtErlaubtToolStripMenuItem_Click);
             // 
             // ungültigerWertToolStripMenuItem
             // 
-            resources.ApplyResources(this.ungültigerWertToolStripMenuItem, "ungültigerWertToolStripMenuItem");
             this.ungültigerWertToolStripMenuItem.Name = "ungültigerWertToolStripMenuItem";
+            resources.ApplyResources(this.ungültigerWertToolStripMenuItem, "ungültigerWertToolStripMenuItem");
             this.ungültigerWertToolStripMenuItem.Click += new System.EventHandler(this.ungültigerWertToolStripMenuItem_Click);
             // 
             // ungültigerEingabeToolStripMenuItem
             // 
-            resources.ApplyResources(this.ungültigerEingabeToolStripMenuItem, "ungültigerEingabeToolStripMenuItem");
             this.ungültigerEingabeToolStripMenuItem.Name = "ungültigerEingabeToolStripMenuItem";
+            resources.ApplyResources(this.ungültigerEingabeToolStripMenuItem, "ungültigerEingabeToolStripMenuItem");
             this.ungültigerEingabeToolStripMenuItem.Click += new System.EventHandler(this.ungültigerEingabeToolStripMenuItem_Click);
             // 
             // informationToolStripMenuItem
             // 
-            resources.ApplyResources(this.informationToolStripMenuItem, "informationToolStripMenuItem");
             this.informationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.überToolStripMenuItem});
             this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
+            resources.ApplyResources(this.informationToolStripMenuItem, "informationToolStripMenuItem");
             // 
             // überToolStripMenuItem
             // 
-            resources.ApplyResources(this.überToolStripMenuItem, "überToolStripMenuItem");
             this.überToolStripMenuItem.Name = "überToolStripMenuItem";
+            resources.ApplyResources(this.überToolStripMenuItem, "überToolStripMenuItem");
             this.überToolStripMenuItem.Click += new System.EventHandler(this.überToolStripMenuItem_Click);
             // 
             // BlitzschutzRechner
@@ -457,6 +457,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "BlitzschutzRechner";
+            this.Load += new System.EventHandler(this.BlitzschutzRechner_Load);
             this.groupBox_One_Pole.ResumeLayout(false);
             this.groupBox_One_Pole.PerformLayout();
             this.groupBox_One_Pole_Protection_Height_Error.ResumeLayout(false);
