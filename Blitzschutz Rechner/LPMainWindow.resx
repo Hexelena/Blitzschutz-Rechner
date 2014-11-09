@@ -1,0 +1,1346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Txtbox1stRodProtectionRadius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 136</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodProtectionRadius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Radius.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelProtectionHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabelProtectionHeight.Text" xml:space="preserve">
+    <value>Schutzhöhe:</value>
+  </data>
+  <data name="Label2ndRodHeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Txtbox1stRodHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="überToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodHeight.Name" xml:space="preserve">
+    <value>Txtbox2ndRodHeight</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadiusError.Parent" xml:space="preserve">
+    <value>Groupbox1stRodProtectionRadiusError</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height.Name" xml:space="preserve">
+    <value>Label_One_Pole_Protection_Height</value>
+  </data>
+  <data name="informationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Label1stRodHeight.Text" xml:space="preserve">
+    <value>1. Masthöhe:</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Radius.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height.Text" xml:space="preserve">
+    <value>Schutzhöhe:</value>
+  </data>
+  <data name="GroupboxProtectedZoneError.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTwoRods.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectedZone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Pole_Height_Error.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2ndRodProtectionRadiusError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Pole_Height_Error.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodProtectionRadiusError.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height_Error.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectedZone.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="wertNichtErlaubtToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wert nicht erlaubt</value>
+  </data>
+  <data name="TxtboxRodDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectionHeightError.Name" xml:space="preserve">
+    <value>GroupboxProtectionHeightError</value>
+  </data>
+  <data name="LabelProtectionHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 24</value>
+  </data>
+  <data name="Label1stRodProtectionRadiusError.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Pole_Height_Error.Name" xml:space="preserve">
+    <value>groupBox_One_Pole_Pole_Height_Error</value>
+  </data>
+  <data name="TxtboxProtectionHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Radius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 24</value>
+  </data>
+  <data name="&gt;&gt;ungültigerEingabeToolStripMenuItem.Name" xml:space="preserve">
+    <value>ungültigerEingabeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadius.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodHeight.Name" xml:space="preserve">
+    <value>Txtbox1stRodHeight</value>
+  </data>
+  <data name="LabelRodDistanceError.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Radius.Text" xml:space="preserve">
+    <value>Schutzradius :</value>
+  </data>
+  <data name="groupBox_One_Pole_Pole_Height_Error.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodProtectionRadius.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TxtboxProtectionHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 40</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeight.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height_Error.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="LabelProtectedZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 120</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodProtectionRadius.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Btn_One_Pole_Calculate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadius.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Txtbox_One_Pole_Protection_Radius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Txtbox1stRodHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="GroupboxProtectionHeightError.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodProtectionRadius.Name" xml:space="preserve">
+    <value>Txtbox1stRodProtectionRadius</value>
+  </data>
+  <data name="LabelProtectionHeightError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2ndRodHeightError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="Groupbox1stRodHeightError.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="einstellungenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="LabelRodDistanceError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="&gt;&gt;Btn_Two_Poles_Calculate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_One_Pole_Calculate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="Label1stRodProtectionRadiusError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="Groupbox1stRodHeightError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;TxtboxRodDistance.Name" xml:space="preserve">
+    <value>TxtboxRodDistance</value>
+  </data>
+  <data name="Groupbox2ndRodProtectionRadiusError.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height_Error.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height.Name" xml:space="preserve">
+    <value>Label_One_Pole_Pole_Height</value>
+  </data>
+  <data name="&gt;&gt;TxtboxRodDistance.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="programmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="Btn_One_Pole_Calculate.Text" xml:space="preserve">
+    <value>Berechnen</value>
+  </data>
+  <data name="groupBoxTwoRods.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodHeightError.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="Label2ndRodProtectionRadiusError.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelProtectedZoneError.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectionHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_One_Pole.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodHeightError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Txtbox2ndRodHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 40</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistanceError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox_One_Pole_Pole_Height_Error.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 64</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Pole_Height.Name" xml:space="preserve">
+    <value>Txtbox_One_Pole_Pole_Height</value>
+  </data>
+  <data name="Txtbox1stRodHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="&gt;&gt;wertNichtErlaubtToolStripMenuItem.Name" xml:space="preserve">
+    <value>wertNichtErlaubtToolStripMenuItem</value>
+  </data>
+  <data name="LabelProtectionHeightError.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Groupbox1stRodHeightError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 64</value>
+  </data>
+  <data name="GroupboxProtectedZoneError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 160</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectionHeight.Name" xml:space="preserve">
+    <value>TxtboxProtectionHeight</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodProtectionRadiusError.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZoneError.Name" xml:space="preserve">
+    <value>LabelProtectedZoneError</value>
+  </data>
+  <data name="TxtboxRodDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 40</value>
+  </data>
+  <data name="LabelProtectionHeightError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="GroupboxProtectedZoneError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodHeightError.Name" xml:space="preserve">
+    <value>Groupbox1stRodHeightError</value>
+  </data>
+  <data name="LabelRodDistanceError.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>561, 24</value>
+  </data>
+  <data name="Btn_Two_Poles_Calculate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 136</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1stRodHeightError.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelProtectionHeightError.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadiusError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Txtbox_One_Pole_Protection_Radius.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GroupboxRodDistanceError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelRodDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 24</value>
+  </data>
+  <data name="&gt;&gt;GroupboxRodDistanceError.Name" xml:space="preserve">
+    <value>GroupboxRodDistanceError</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectionHeight.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadius.Name" xml:space="preserve">
+    <value>Label2ndRodProtectionRadius</value>
+  </data>
+  <data name="Txtbox1stRodProtectionRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Radius.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height_Error.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Radius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;einstellungenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelRodDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Pole_Height_Error.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="groupBox_One_Pole_Protection_Height_Error.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height_Error.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="GroupboxRodDistanceError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height_Error.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodHeight.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodProtectionRadiusError.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;informationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1stRodHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectionHeight.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ungültigerEingabeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeight.Name" xml:space="preserve">
+    <value>Label1stRodHeight</value>
+  </data>
+  <data name="GroupboxProtectedZoneError.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Label1stRodHeightError.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="Txtbox2ndRodProtectionRadius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 136</value>
+  </data>
+  <data name="programmToolStripMenuItem.Text" xml:space="preserve">
+    <value>Programm</value>
+  </data>
+  <data name="LabelProtectionHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="Btn_Two_Poles_Calculate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadius.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="Label1stRodHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="LabelProtectedZoneError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="Label2ndRodHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Txtbox_One_Pole_Protection_Radius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 40</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2ndRodHeightError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="LabelProtectedZone.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;fehlerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Groupbox2ndRodHeightError.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Btn_Two_Poles_Calculate.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Groupbox1stRodHeightError.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Label2ndRodHeightError.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height_Error.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupboxProtectionHeightError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 64</value>
+  </data>
+  <data name="Groupbox2ndRodHeightError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Radius.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TxtboxRodDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeight.Name" xml:space="preserve">
+    <value>Label2ndRodHeight</value>
+  </data>
+  <data name="Groupbox2ndRodProtectionRadiusError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="LabelProtectionHeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodProtectionRadiusError.Name" xml:space="preserve">
+    <value>Groupbox1stRodProtectionRadiusError</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistance.Name" xml:space="preserve">
+    <value>LabelRodDistance</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height_Error.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistance.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Groupbox2ndRodHeightError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GroupboxRodDistanceError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 64</value>
+  </data>
+  <data name="&gt;&gt;überToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Txtbox_One_Pole_Protection_Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Blitzschutz-Rechner</value>
+  </data>
+  <data name="Txtbox_One_Pole_Pole_Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_One_Pole_Pole_Height_Error.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;ungültigerWertToolStripMenuItem.Name" xml:space="preserve">
+    <value>ungültigerWertToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadiusError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZone.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="LabelProtectionHeightError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodHeight.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Label2ndRodProtectionRadiusError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadius.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTwoRods.Name" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;TxtboxRodDistance.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="LabelRodDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="&gt;&gt;fehlerToolStripMenuItem.Name" xml:space="preserve">
+    <value>fehlerToolStripMenuItem</value>
+  </data>
+  <data name="TxtboxProtectionHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height_Error.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole_Pole_Height_Error</value>
+  </data>
+  <data name="groupBox_One_Pole_Pole_Height_Error.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="ungültigerWertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="LabelRodDistanceError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="Label1stRodHeightError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadiusError.Name" xml:space="preserve">
+    <value>Label2ndRodProtectionRadiusError</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeightError.Name" xml:space="preserve">
+    <value>Label1stRodHeightError</value>
+  </data>
+  <data name="GroupboxRodDistanceError.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label2ndRodProtectionRadiusError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectionHeightError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1stRodProtectionRadiusError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadiusError.Name" xml:space="preserve">
+    <value>Label1stRodProtectionRadiusError</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZoneError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Txtbox_One_Pole_Pole_Height.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodProtectionRadius.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;Btn_One_Pole_Calculate.Name" xml:space="preserve">
+    <value>Btn_One_Pole_Calculate</value>
+  </data>
+  <data name="Groupbox1stRodProtectionRadiusError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 160</value>
+  </data>
+  <data name="TxtboxProtectedZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodProtectionRadius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeightError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Groupbox1stRodProtectionRadiusError.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeightError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelProtectedZoneError.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole.Name" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="TxtboxProtectedZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 136</value>
+  </data>
+  <data name="&gt;&gt;ungültigerEingabeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_One_Pole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 272</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Protection_Height_Error.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeightError.Name" xml:space="preserve">
+    <value>LabelProtectionHeightError</value>
+  </data>
+  <data name="Groupbox1stRodProtectionRadiusError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox_One_Pole.Text" xml:space="preserve">
+    <value>Ein Mast</value>
+  </data>
+  <data name="groupBox_One_Pole_Pole_Height_Error.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodProtectionRadius.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Height.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="&gt;&gt;überToolStripMenuItem.Name" xml:space="preserve">
+    <value>überToolStripMenuItem</value>
+  </data>
+  <data name="Label1stRodHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Groupbox1stRodProtectionRadiusError.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Label1stRodProtectionRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="LabelRodDistance.Text" xml:space="preserve">
+    <value>Abstand der Masten</value>
+  </data>
+  <data name="LabelProtectedZone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Txtbox1stRodProtectionRadius.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Txtbox_One_Pole_Pole_Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="LabelRodDistance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height_Error.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fehlerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="Btn_Two_Poles_Calculate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height_Error.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeight.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Txtbox_One_Pole_Protection_Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 40</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Groupbox1stRodHeightError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelProtectedZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodHeight.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="Groupbox2ndRodHeightError.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Protection_Height_Error.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label2ndRodProtectionRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeightError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Pole_Height.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="&gt;&gt;Btn_Two_Poles_Calculate.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height_Error.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtboxProtectedZone.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ungültigerWertToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2ndRodProtectionRadius.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Protection_Height_Error.Name" xml:space="preserve">
+    <value>groupBox_One_Pole_Protection_Height_Error</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadiusError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1stRodHeightError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="informationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectionHeightError.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupboxRodDistanceError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;wertNichtErlaubtToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Radius.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistanceError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="einstellungenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;programmToolStripMenuItem.Name" xml:space="preserve">
+    <value>programmToolStripMenuItem</value>
+  </data>
+  <data name="Groupbox2ndRodProtectionRadiusError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 160</value>
+  </data>
+  <data name="groupBox_One_Pole_Protection_Height_Error.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 64</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZoneError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectedZone.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeightError.Parent" xml:space="preserve">
+    <value>Groupbox2ndRodHeightError</value>
+  </data>
+  <data name="groupBox_One_Pole_Protection_Height_Error.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodProtectionRadiusError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height_Error.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Two_Poles_Calculate.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BlitzschutzRechner</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Two_Poles_Calculate.Name" xml:space="preserve">
+    <value>Btn_Two_Poles_Calculate</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeightError.Parent" xml:space="preserve">
+    <value>GroupboxProtectionHeightError</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodHeightError.Name" xml:space="preserve">
+    <value>Groupbox2ndRodHeightError</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodHeightError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1stRodProtectionRadius.Text" xml:space="preserve">
+    <value>1. Schutzradius :</value>
+  </data>
+  <data name="&gt;&gt;Txtbox2ndRodProtectionRadius.Name" xml:space="preserve">
+    <value>Txtbox2ndRodProtectionRadius</value>
+  </data>
+  <data name="groupBoxTwoRods.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZone.Name" xml:space="preserve">
+    <value>LabelProtectedZone</value>
+  </data>
+  <data name="groupBox_One_Pole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 168</value>
+  </data>
+  <data name="&gt;&gt;programmBeendenToolStripMenuItem.Name" xml:space="preserve">
+    <value>programmBeendenToolStripMenuItem</value>
+  </data>
+  <data name="GroupboxProtectedZoneError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeight.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeightError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1stRodProtectionRadiusError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Two_Poles_Calculate.Text" xml:space="preserve">
+    <value>Berechnen</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height_Error.Name" xml:space="preserve">
+    <value>Label_One_Pole_Protection_Height_Error</value>
+  </data>
+  <data name="LabelProtectedZoneError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="Groupbox2ndRodProtectionRadiusError.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZone.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;informationToolStripMenuItem.Name" xml:space="preserve">
+    <value>informationToolStripMenuItem</value>
+  </data>
+  <data name="Label1stRodProtectionRadius.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2ndRodHeightError.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelProtectedZone.Text" xml:space="preserve">
+    <value>Schutzraumbreite:</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Pole_Height.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox_One_Pole_Protection_Height_Error.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="LabelRodDistanceError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Txtbox2ndRodHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label2ndRodProtectionRadius.Text" xml:space="preserve">
+    <value>2. Schutzradius :</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectedZoneError.Name" xml:space="preserve">
+    <value>GroupboxProtectedZoneError</value>
+  </data>
+  <data name="Label2ndRodHeightError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeight.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Pole_Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Radius.Name" xml:space="preserve">
+    <value>Label_One_Pole_Protection_Radius</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height_Error.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Radius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectedZoneError.Parent" xml:space="preserve">
+    <value>GroupboxProtectedZoneError</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="Label2ndRodHeight.Text" xml:space="preserve">
+    <value>2. Masthöhe:</value>
+  </data>
+  <data name="Btn_One_Pole_Calculate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TxtboxProtectedZone.Name" xml:space="preserve">
+    <value>TxtboxProtectedZone</value>
+  </data>
+  <data name="&gt;&gt;programmBeendenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Txtbox2ndRodHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectedZoneError.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Btn_One_Pole_Calculate.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="Groupbox2ndRodHeightError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 64</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Pole_Height_Error.Name" xml:space="preserve">
+    <value>Label_One_Pole_Pole_Height_Error</value>
+  </data>
+  <data name="Txtbox2ndRodProtectionRadius.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodHeightError.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTwoRods.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodHeightError.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Height.Name" xml:space="preserve">
+    <value>Txtbox_One_Pole_Protection_Height</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodProtectionRadiusError.Parent" xml:space="preserve">
+    <value>Groupbox2ndRodProtectionRadiusError</value>
+  </data>
+  <data name="wertNichtErlaubtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupboxProtectionHeightError.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2ndRodHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeight.Name" xml:space="preserve">
+    <value>LabelProtectionHeight</value>
+  </data>
+  <data name="programmBeendenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Programm beenden</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadius.Name" xml:space="preserve">
+    <value>Label1stRodProtectionRadius</value>
+  </data>
+  <data name="Txtbox2ndRodProtectionRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="fehlerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Radius.Name" xml:space="preserve">
+    <value>Txtbox_One_Pole_Protection_Radius</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistanceError.Name" xml:space="preserve">
+    <value>LabelRodDistanceError</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Height_Error.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupboxProtectionHeightError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodProtectionRadiusError.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="LabelProtectedZoneError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="Label1stRodProtectionRadius.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LabelProtectionHeight.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;GroupboxRodDistanceError.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeightError.Name" xml:space="preserve">
+    <value>Label2ndRodHeightError</value>
+  </data>
+  <data name="Label2ndRodHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 24</value>
+  </data>
+  <data name="Groupbox2ndRodProtectionRadiusError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label1stRodProtectionRadiusError.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodProtectionRadiusError.Name" xml:space="preserve">
+    <value>Groupbox2ndRodProtectionRadiusError</value>
+  </data>
+  <data name="Btn_One_Pole_Calculate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Btn_One_Pole_Calculate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 72</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>561, 484</value>
+  </data>
+  <data name="Label1stRodHeightError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeight.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="programmBeendenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ungültigerEingabeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ungültige Eingabe</value>
+  </data>
+  <data name="groupBoxTwoRods.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 240</value>
+  </data>
+  <data name="&gt;&gt;Btn_One_Pole_Calculate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2ndRodHeightError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txtbox1stRodHeight.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="TxtboxRodDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="groupBox_One_Pole_Protection_Height_Error.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Height_Error.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole_Protection_Height_Error</value>
+  </data>
+  <data name="&gt;&gt;Txtbox_One_Pole_Protection_Height.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectedZoneError.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="Label1stRodHeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeightError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Groupbox2ndRodProtectionRadiusError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;programmToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ungültigerWertToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ungültiger Wert</value>
+  </data>
+  <data name="Label2ndRodProtectionRadius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 120</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodProtectionRadiusError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Txtbox_One_Pole_Protection_Height.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label1stRodProtectionRadius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 120</value>
+  </data>
+  <data name="Label2ndRodProtectionRadiusError.Text" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="überToolStripMenuItem.Text" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectionHeightError.Parent" xml:space="preserve">
+    <value>groupBoxTwoRods</value>
+  </data>
+  <data name="Label_One_Pole_Protection_Radius.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GroupboxRodDistanceError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistanceError.Parent" xml:space="preserve">
+    <value>GroupboxRodDistanceError</value>
+  </data>
+  <data name="Label_One_Pole_Pole_Height.Text" xml:space="preserve">
+    <value>Masthöhe:</value>
+  </data>
+  <data name="Btn_Two_Poles_Calculate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GroupboxRodDistanceError.Text" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="&gt;&gt;Label1stRodHeightError.Parent" xml:space="preserve">
+    <value>Groupbox1stRodHeightError</value>
+  </data>
+  <data name="&gt;&gt;groupBox_One_Pole_Protection_Height_Error.Parent" xml:space="preserve">
+    <value>groupBox_One_Pole</value>
+  </data>
+  <data name="&gt;&gt;LabelRodDistance.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Groupbox1stRodProtectionRadiusError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <data name="&gt;&gt;einstellungenToolStripMenuItem.Name" xml:space="preserve">
+    <value>einstellungenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Groupbox1stRodHeightError.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Btn_One_Pole_Calculate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Label_One_Pole_Protection_Radius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTwoRods.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupboxProtectedZoneError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2ndRodProtectionRadius.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupboxProtectionHeightError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 32</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>117, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

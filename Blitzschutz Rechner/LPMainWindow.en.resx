@@ -117,7 +117,105 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>117, 17</value>
-  </metadata>
+  <data name="Btn_Two_Poles_Calculate.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label2ndRodProtectionRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="Label2ndRodProtectionRadius.Text" xml:space="preserve">
+    <value>2nd protection radius</value>
+  </data>
+  <data name="Label1stRodProtectionRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="Label1stRodProtectionRadius.Text" xml:space="preserve">
+    <value>1st protection radius</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelProtectedZone.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelProtectedZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 109</value>
+  </data>
+  <data name="LabelProtectedZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 26</value>
+  </data>
+  <data name="LabelProtectedZone.Text" xml:space="preserve">
+    <value>width of the protected zone:</value>
+  </data>
+  <data name="Label2ndRodHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="Label2ndRodHeight.Text" xml:space="preserve">
+    <value>2nd rod height:</value>
+  </data>
+  <data name="LabelProtectionHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="LabelProtectionHeight.Text" xml:space="preserve">
+    <value>protection height:</value>
+  </data>
+  <data name="Label1stRodHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="Label1stRodHeight.Text" xml:space="preserve">
+    <value>1st rod height:</value>
+  </data>
+  <data name="LabelRodDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="LabelRodDistance.Text" xml:space="preserve">
+    <value>pole distance:</value>
+  </data>
+  <data name="einstellungenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="einstellungenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="programmBeendenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="programmBeendenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close program</value>
+  </data>
+  <data name="programmToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="programmToolStripMenuItem.Text" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="wertNichtErlaubtToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="wertNichtErlaubtToolStripMenuItem.Text" xml:space="preserve">
+    <value>value not allowed</value>
+  </data>
+  <data name="ungültigerWertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="ungültigerWertToolStripMenuItem.Text" xml:space="preserve">
+    <value>invalid value</value>
+  </data>
+  <data name="ungültigerEingabeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="ungültigerEingabeToolStripMenuItem.Text" xml:space="preserve">
+    <value>invalid input</value>
+  </data>
+  <data name="fehlerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="fehlerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="überToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="überToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
 </root>

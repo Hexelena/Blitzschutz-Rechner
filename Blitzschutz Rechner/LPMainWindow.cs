@@ -78,11 +78,11 @@ namespace Blitzschutz_Rechner
          * same goes for the second pole.
          * if then the pole distance is fine too, the protection area width is calculated (if all values are in range)
          */
-            Txtbox_Two_Poles_1st_Pole_Protection_Radius.Clear();
-            Txtbox_Two_Poles_2nd_Pole_Protection_Radius.Clear();
-            Txtbox_Two_Poles_Protection_Area_Width.Clear();
+            Txtbox1stRodProtectionRadius.Clear();
+            Txtbox2ndRodProtectionRadius.Clear();
+            TxtboxProtectedZone.Clear();
 
-            if (Groupbox_Two_Poles_1st_Protection_Radius_Error.Visible)
+            if (Groupbox1stRodProtectionRadiusError.Visible)
             {
                 Display_Error_Messages(7, null, false);
             }
@@ -93,7 +93,7 @@ namespace Blitzschutz_Rechner
                 {
                     if ((Two_Poles_1st_Pole_Height <= values_upper_chart_border[(int)Two_Poles_Protection_Height - 1]) && (Two_Poles_1st_Pole_Height >= values_lower_chart_border[(int)Two_Poles_Protection_Height - 1]))
                     {
-                        Txtbox_Two_Poles_1st_Pole_Protection_Radius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_1st_Pole_Height, Two_Poles_Protection_Height).ToString("F");
+                        Txtbox1stRodProtectionRadius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_1st_Pole_Height, Two_Poles_Protection_Height).ToString("F");
                     }
                     else
                     {
@@ -104,11 +104,11 @@ namespace Blitzschutz_Rechner
                 {
                     if ((Two_Poles_1st_Pole_Height <= values_upper_chart_border[(int)Two_Poles_Protection_Height]) && (Two_Poles_1st_Pole_Height >= values_lower_chart_border[(int)Two_Poles_Protection_Height]))
                     {
-                        if (Groupbox_Two_Poles_1st_Protection_Radius_Error.Visible)
+                        if (Groupbox1stRodProtectionRadiusError.Visible)
                         {
                             Display_Error_Messages(7, null, false);
                         }
-                        Txtbox_Two_Poles_1st_Pole_Protection_Radius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_1st_Pole_Height, Two_Poles_Protection_Height).ToString("F");
+                        Txtbox1stRodProtectionRadius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_1st_Pole_Height, Two_Poles_Protection_Height).ToString("F");
                     }
                     else
                     {
@@ -117,7 +117,7 @@ namespace Blitzschutz_Rechner
                 }
             }
 
-            if (Groupbox_Two_Poles_2nd_Protection_Radius_Error.Visible)
+            if (Groupbox2ndRodProtectionRadiusError.Visible)
             {
                 Display_Error_Messages(8, null, false);
             }
@@ -128,7 +128,7 @@ namespace Blitzschutz_Rechner
                 {
                     if ((Two_Poles_2nd_Pole_Height <= values_upper_chart_border[(int)Two_Poles_Protection_Height - 1]) && (Two_Poles_2nd_Pole_Height >= values_lower_chart_border[(int)Two_Poles_Protection_Height - 1]))
                     {
-                        Txtbox_Two_Poles_2nd_Pole_Protection_Radius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_2nd_Pole_Height, Two_Poles_Protection_Height).ToString("F");
+                        Txtbox2ndRodProtectionRadius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_2nd_Pole_Height, Two_Poles_Protection_Height).ToString("F");
                     }
                     else
                     {
@@ -139,7 +139,7 @@ namespace Blitzschutz_Rechner
                 {
                     if ((Two_Poles_1st_Pole_Height <= values_upper_chart_border[(int)Two_Poles_Protection_Height]) && (Two_Poles_1st_Pole_Height >= values_lower_chart_border[(int)Two_Poles_Protection_Height]))
                     {
-                        Txtbox_Two_Poles_2nd_Pole_Protection_Radius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_2nd_Pole_Height, Two_Poles_Protection_Height).ToString("F");
+                        Txtbox2ndRodProtectionRadius.Text = Blitzschutz.Calculate_Protection_Radius(Two_Poles_2nd_Pole_Height, Two_Poles_Protection_Height).ToString("F");
                     }
                     else
                     {
@@ -159,7 +159,7 @@ namespace Blitzschutz_Rechner
                     Display_Error_Messages(4, "Wert nicht erlaubt", true);
                     return;
                 }
-                Txtbox_Two_Poles_Protection_Area_Width.Text = Blitzschutz.Calculate_Protection_Floor_Width(average_pole_height, Two_Poles_Protection_Height, Two_Poles_Pole_Distance).ToString("F");
+                TxtboxProtectedZone.Text = Blitzschutz.Calculate_Protection_Floor_Width(average_pole_height, Two_Poles_Protection_Height, Two_Poles_Pole_Distance).ToString("F");
             }
         }
 
@@ -221,9 +221,9 @@ namespace Blitzschutz_Rechner
                     }
                     break;
                 case 3:
-                    if ((Txtbox_Two_Poles_1st_Pole_Pole_Height.Text != "") && (double.TryParse(Txtbox_Two_Poles_1st_Pole_Pole_Height.Text.ToString(), NumberStyles.Float, null, out Two_Poles_1st_Pole_Height)) && ((Two_Poles_1st_Pole_Height <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_1st_Pole_Height >= values_lower_value_border[Textbox_Number - 1]))
+                    if ((Txtbox1stRodHeight.Text != "") && (double.TryParse(Txtbox1stRodHeight.Text.ToString(), NumberStyles.Float, null, out Two_Poles_1st_Pole_Height)) && ((Two_Poles_1st_Pole_Height <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_1st_Pole_Height >= values_lower_value_border[Textbox_Number - 1]))
                     {
-                        if (Groupbox_Two_Poles_1st_Pole_Pole_Height_Error.Visible)
+                        if (Groupbox1stRodHeightError.Visible)
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
@@ -231,7 +231,7 @@ namespace Blitzschutz_Rechner
                     }
                     else
                     {
-                        if ((Txtbox_Two_Poles_1st_Pole_Pole_Height.Text != "") && (!double.TryParse(Txtbox_Two_Poles_1st_Pole_Pole_Height.Text.ToString(), NumberStyles.Float, null, out Two_Poles_1st_Pole_Height)))
+                        if ((Txtbox1stRodHeight.Text != "") && (!double.TryParse(Txtbox1stRodHeight.Text.ToString(), NumberStyles.Float, null, out Two_Poles_1st_Pole_Height)))
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültige Eingabe", true); // 1 => Errorbox beneath Txtbox_Pole_Height
                         }
@@ -239,16 +239,16 @@ namespace Blitzschutz_Rechner
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültiger Wert", true);
                         }
-                        else if (Txtbox_Two_Poles_1st_Pole_Pole_Height.Text == "")
+                        else if (Txtbox1stRodHeight.Text == "")
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
                     }
                     break;
                 case 4:
-                    if ((Txtbox_Two_Poles_2nd_Pole_Pole_Height.Text != "") && (double.TryParse(Txtbox_Two_Poles_2nd_Pole_Pole_Height.Text.ToString(), NumberStyles.Float, null, out Two_Poles_2nd_Pole_Height)) && ((Two_Poles_2nd_Pole_Height <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_2nd_Pole_Height >= values_lower_value_border[Textbox_Number - 1]))
+                    if ((Txtbox2ndRodHeight.Text != "") && (double.TryParse(Txtbox2ndRodHeight.Text.ToString(), NumberStyles.Float, null, out Two_Poles_2nd_Pole_Height)) && ((Two_Poles_2nd_Pole_Height <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_2nd_Pole_Height >= values_lower_value_border[Textbox_Number - 1]))
                     {
-                        if (Groupbox_Two_Poles_2nd_Pole_Pole_Height_Error.Visible)
+                        if (Groupbox2ndRodHeightError.Visible)
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
@@ -256,7 +256,7 @@ namespace Blitzschutz_Rechner
                     }
                     else
                     {
-                        if ((Txtbox_Two_Poles_2nd_Pole_Pole_Height.Text != "") && (!double.TryParse(Txtbox_Two_Poles_2nd_Pole_Pole_Height.Text.ToString(), NumberStyles.Float, null, out Two_Poles_2nd_Pole_Height)))
+                        if ((Txtbox2ndRodHeight.Text != "") && (!double.TryParse(Txtbox2ndRodHeight.Text.ToString(), NumberStyles.Float, null, out Two_Poles_2nd_Pole_Height)))
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültige Eingabe", true); // 1 => Errorbox beneath Txtbox_Pole_Height
                         }
@@ -264,16 +264,16 @@ namespace Blitzschutz_Rechner
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültiger Wert", true);
                         }
-                        else if (Txtbox_Two_Poles_2nd_Pole_Pole_Height.Text == "")
+                        else if (Txtbox2ndRodHeight.Text == "")
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
                     }
                     break;
                 case 5:
-                    if ((Txtbox_Two_Poles_Protection_Height.Text != "") && (double.TryParse(Txtbox_Two_Poles_Protection_Height.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Protection_Height)) && ((Two_Poles_Protection_Height <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_Protection_Height >= values_lower_value_border[Textbox_Number - 1]))
+                    if ((TxtboxProtectionHeight.Text != "") && (double.TryParse(TxtboxProtectionHeight.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Protection_Height)) && ((Two_Poles_Protection_Height <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_Protection_Height >= values_lower_value_border[Textbox_Number - 1]))
                     {
-                        if (Groupbox_Two_Poles_Protection_Height_Error.Visible)
+                        if (GroupboxProtectionHeightError.Visible)
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
@@ -281,7 +281,7 @@ namespace Blitzschutz_Rechner
                     }
                     else
                     {
-                        if ((Txtbox_Two_Poles_Protection_Height.Text != "") && (!double.TryParse(Txtbox_Two_Poles_Protection_Height.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Protection_Height)))
+                        if ((TxtboxProtectionHeight.Text != "") && (!double.TryParse(TxtboxProtectionHeight.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Protection_Height)))
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültige Eingabe", true); // 1 => Errorbox beneath Txtbox_Pole_Height
                         }
@@ -289,16 +289,16 @@ namespace Blitzschutz_Rechner
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültiger Wert", true);
                         }
-                        else if (Txtbox_Two_Poles_Protection_Height.Text == "")
+                        else if (TxtboxProtectionHeight.Text == "")
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
                     }
                     break;
                 case 6:
-                    if ((Txtbox_Two_Poles_Pole_Distance.Text != "") && (double.TryParse(Txtbox_Two_Poles_Pole_Distance.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Pole_Distance)) && ((Two_Poles_Pole_Distance <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_Pole_Distance >= values_lower_value_border[Textbox_Number - 1]))
+                    if ((TxtboxRodDistance.Text != "") && (double.TryParse(TxtboxRodDistance.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Pole_Distance)) && ((Two_Poles_Pole_Distance <= values_upper_value_border[Textbox_Number - 1])) && (Two_Poles_Pole_Distance >= values_lower_value_border[Textbox_Number - 1]))
                     {
-                        if (Groupbox_Two_Poles_Pole_Distance_Error.Visible)
+                        if (GroupboxRodDistanceError.Visible)
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
@@ -306,7 +306,7 @@ namespace Blitzschutz_Rechner
                     }
                     else
                     {
-                        if ((Txtbox_Two_Poles_Pole_Distance.Text != "") && (!double.TryParse(Txtbox_Two_Poles_Pole_Distance.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Pole_Distance)))
+                        if ((TxtboxRodDistance.Text != "") && (!double.TryParse(TxtboxRodDistance.Text.ToString(), NumberStyles.Float, null, out Two_Poles_Pole_Distance)))
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültige Eingabe", true); // 1 => Errorbox beneath Txtbox_Pole_Height
                         }
@@ -314,7 +314,7 @@ namespace Blitzschutz_Rechner
                         {
                             Display_Error_Messages(Textbox_Number, "Ungültiger Wert", true);
                         }
-                        else if (Txtbox_Two_Poles_Pole_Distance.Text == "")
+                        else if (TxtboxRodDistance.Text == "")
                         {
                             Display_Error_Messages(Textbox_Number, null, false);
                         }
@@ -392,28 +392,28 @@ namespace Blitzschutz_Rechner
                         groupBox_One_Pole_Protection_Height_Error.Visible = true;
                         break;
                     case 3:
-                        Label_Two_Poles_1st_Pole_Pole_Height_Error.Text = Error_Text;
-                        Groupbox_Two_Poles_1st_Pole_Pole_Height_Error.Visible = true;
+                        Label1stRodHeightError.Text = Error_Text;
+                        Groupbox1stRodHeightError.Visible = true;
                         break;
                     case 4:
-                        Label_Two_Poles_2nd_Pole_Pole_Height_Error.Text = Error_Text;
-                        Groupbox_Two_Poles_2nd_Pole_Pole_Height_Error.Visible = true;
+                        Label2ndRodHeightError.Text = Error_Text;
+                        Groupbox2ndRodHeightError.Visible = true;
                         break;
                     case 5:
-                        Label_Two_Poles_Protection_Height_Error.Text = Error_Text;
-                        Groupbox_Two_Poles_Protection_Height_Error.Visible = true;
+                        LabelProtectionHeightError.Text = Error_Text;
+                        GroupboxProtectionHeightError.Visible = true;
                         break;
                     case 6:
-                        Label_Two_Poles_Pole_Distance_Error.Text = Error_Text;
-                        Groupbox_Two_Poles_Pole_Distance_Error.Visible = true;
+                        LabelRodDistanceError.Text = Error_Text;
+                        GroupboxRodDistanceError.Visible = true;
                         break;
                     case 7 :
-                        Label_Two_Poles_1st_Protection_Radius_Error.Text = Error_Text;
-                        Groupbox_Two_Poles_1st_Protection_Radius_Error.Visible = true;
+                        Label1stRodProtectionRadiusError.Text = Error_Text;
+                        Groupbox1stRodProtectionRadiusError.Visible = true;
                         break;
                     case 8:
-                        Label_Two_Poles_2nd_Protection_Radius_Error.Text = Error_Text;
-                        Groupbox_Two_Poles_2nd_Protection_Radius_Error.Visible = true;
+                        Label2ndRodProtectionRadiusError.Text = Error_Text;
+                        Groupbox2ndRodProtectionRadiusError.Visible = true;
                         break;
                 }
             }
@@ -431,22 +431,22 @@ namespace Blitzschutz_Rechner
                         groupBox_One_Pole_Protection_Height_Error.Visible = false;
                         break;
                     case 3:
-                        Groupbox_Two_Poles_1st_Pole_Pole_Height_Error.Visible = false;
+                        Groupbox1stRodHeightError.Visible = false;
                         break;
                     case 4:
-                        Groupbox_Two_Poles_2nd_Pole_Pole_Height_Error.Visible = false;
+                        Groupbox2ndRodHeightError.Visible = false;
                         break;
                     case 5:
-                        Groupbox_Two_Poles_Protection_Height_Error.Visible = false;
+                        GroupboxProtectionHeightError.Visible = false;
                         break;
                     case 6:
-                        Groupbox_Two_Poles_Pole_Distance_Error.Visible = false;
+                        GroupboxRodDistanceError.Visible = false;
                         break;
                     case 7:
-                        Groupbox_Two_Poles_1st_Protection_Radius_Error.Visible = false;
+                        Groupbox1stRodProtectionRadiusError.Visible = false;
                         break;
                     case 8:
-                        Groupbox_Two_Poles_2nd_Protection_Radius_Error.Visible = false;
+                        Groupbox2ndRodProtectionRadiusError.Visible = false;
                         break;
                 }
 
@@ -514,5 +514,11 @@ namespace Blitzschutz_Rechner
         }
 
         #endregion
+
+        private void einstellungenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SettingsWindow SetWindow = new SettingsWindow();
+            SetWindow.ShowDialog();
+        }
     }
 }
