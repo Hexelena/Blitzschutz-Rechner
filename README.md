@@ -1,4 +1,4 @@
-Blitzschutz-Rechner
+Blitzschutz-Rechner [abandoned]
 ===================
 
 Tool zum Berechnen des Radius und der Korridorbreite bei gegebener Masthöhe, Schutzhöhe und Mastabstand
@@ -10,3 +10,4 @@ Der dabei entstehende Rechenfehler kann vernachlässigt werden.
 
 Die Berechnung der Korridorbreite ist noch nicht fertig und es wird auch noch nicht richtig und bei
 jeder Rechnung interpoliert.
+
